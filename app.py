@@ -10,7 +10,7 @@ st.set_page_config(page_title="The SEO Works chat robot", page_icon="https://www
         'About': "Let us know what you think of the app?"
     })
 
-st.markdown("<h2 style='text-align: left;'>The SEO Works chat robot</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: left;'>The SEO Works OptiBot</h2>", unsafe_allow_html=True)
 
 tab1, tab2, tab3 = st.tabs(["Response builder", "Output", "Guide"])
 
