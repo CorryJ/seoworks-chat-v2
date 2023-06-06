@@ -3,7 +3,6 @@ import streamlit as st
 from streamlit_chat import message
 
 
-
 # Setting page title and header
 st.set_page_config(page_title="The SEO Works chat robot", page_icon="https://www.seoworks.co.uk/wp-content/themes/seoworks/assets/images/fav.png", layout="wide",    menu_items={
         'Get Help': 'https://www.seoworks.co.uk',
@@ -221,11 +220,6 @@ with tab1:
     temperature_setting = st.sidebar.slider("Set the temperature of the response (Higher = more random, lower = more focussed):",min_value=0.0, max_value=1.0, step=0.1)
     clear_button = st.sidebar.button("Clear Conversation", key="clear")
 
-
-    # Set org ID and API key
-    # openai.organization = "org-UhxonLlzrkpFpzI10Q4q9aAE"
-    # openai.api_key = api_key
-# openai.api_key = api_key
 
     openai.api_key = st.secrets.api_key
 
