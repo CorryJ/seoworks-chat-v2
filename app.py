@@ -211,7 +211,7 @@ with tab1:
         st.session_state['total_cost'] = 0.0
 
     # Sidebar - let user choose model, show total cost of current conversation, and let user clear the current conversation
-    st.sidebar.image("https://www.seoworks.co.uk/wp-content/themes/seoworks/assets/logos/Seoworks-Logo-Light.svg")
+    st.sidebar.image("https://www.seoworks.com/wp-content/uploads/2021/07/SeoWorksLogo-Dark-3.png")
     st.sidebar.title("Options and info:")
     model_name = st.sidebar.radio("Choose a model:", ("GPT-3.5", "GPT-4 (Not released yet)"))
     counter_placeholder = st.sidebar.empty()
