@@ -1,6 +1,5 @@
 import openai
 import streamlit as st
-import streamlit_authenticator as stauth
 from streamlit_chat import message
 
 
